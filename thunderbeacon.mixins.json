@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "fr.thunderbeacon.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "BeaconBlockEntityRendererMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

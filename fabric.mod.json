@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "thunderbeacon",
+  "version": "${version}",
+  "name": "Thunder Beacon",
+  "description": "Le rayon de la balise devient rond, vibrant et bleu tonnerre, avec un noyau sphérique et des orbes d'énergie.",
+  "authors": ["Toi"],
+  "license": "MIT",
+  "environment": "client",
+  "mixins": [
+    { "config": "thunderbeacon.mixins.json", "environment": "client" }
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21"
+  }
+}
